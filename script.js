@@ -45,7 +45,7 @@ const axesHelper = new THREE.AxesHelper(5);
 scene.add(axesHelper);
 
 var camera = new THREE.PerspectiveCamera(100, window.innerWidth / window.innerHeight);
-camera.position.set(5, 3.7, -9);
+camera.position.set(5, 3.7, -11);
 
 var renderer = new THREE.WebGLRenderer({
 antialias: true,
@@ -191,7 +191,7 @@ cube4.rotation.x = 0;
 cube4.rotation.y = 0;
 
 var geometry5 = new THREE.BoxGeometry(3.5, 9.45, 0.25); // sağ kapı
-var material5 = new THREE.MeshBasicMaterial({ color: 0x783C2A });
+var material5 = new THREE.MeshBasicMaterial({ color: 0x722829 });
 var cube5 = new THREE.Mesh(geometry5, material5);
 scene.add(cube5);
 
@@ -211,7 +211,7 @@ globalThis.animd = new TWEEN.Tween(cube5.rotation);
 globalThis.animd.to({ y: 0 }, 1750);
 
 var geometry8 = new THREE.BoxGeometry(3.5, 9.45, 0.25); // sol kapı
-var material8 = new THREE.MeshBasicMaterial({ color: 0x783C2A });
+var material8 = new THREE.MeshBasicMaterial({ color: 0x722829 });
 var cube8 = new THREE.Mesh(geometry8, material8);
 scene.add(cube8);
 
@@ -395,7 +395,7 @@ cube14.rotation.x = 0;
 cube14.rotation.y = 0;
 
 var geometry15 = new THREE.BoxGeometry(3.4, 1.4, 0.15); // iç dolap kapı
-var material15 = new THREE.MeshBasicMaterial({ color: 0x783C2A });
+var material15 = new THREE.MeshBasicMaterial({ color: 0x722829 });
 var cube15 = new THREE.Mesh(geometry15, material15);
 scene.add(cube15);
 
@@ -444,7 +444,7 @@ cube19.rotation.x = 0;
 cube19.rotation.y = 0;
 
 var geometry20 = new THREE.BoxGeometry(3.4, 1.4, 0.15); // 2. iç dolap kapı
-var material20 = new THREE.MeshBasicMaterial({ color: 0x783C2A });
+var material20 = new THREE.MeshBasicMaterial({ color: 0x722829 });
 var cube20 = new THREE.Mesh(geometry20, material20);
 scene.add(cube20);
 
