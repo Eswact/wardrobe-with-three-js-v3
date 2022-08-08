@@ -1,5 +1,3 @@
-# wardrobe-with-three-js-v2
-
-https://wardrobe-with-three-js-v2.netlify.app
+# wardrobe-with-three-js-v3
 
 https://wardrobe-with-three-js-v3.netlify.app
